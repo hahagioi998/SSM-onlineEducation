@@ -3,9 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ocCommon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocCommon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocOperator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocOperator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocPortal/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocPortal/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ocService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocWechat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocWechat/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -7,10 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ocCommon" />
-        <module name="ocPortal" />
         <module name="ocOperator" />
         <module name="ocWechat" />
         <module name="ocService" />
+      </profile>
+      <profile name="Annotation profile for ocProject" enabled="true">
+        <sourceOutputDir name="../ocOperator/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../ocOperator/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ocPortal" />
       </profile>
     </annotationProcessing>
   </component>
