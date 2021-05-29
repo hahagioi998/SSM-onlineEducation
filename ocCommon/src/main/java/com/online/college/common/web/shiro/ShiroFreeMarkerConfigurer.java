@@ -1,10 +1,12 @@
 package com.online.college.common.web.shiro;
 
-import com.online.college.common.web.shiro.freemarker.ShiroTags;
-import freemarker.template.TemplateException;
+import java.io.IOException;
+
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 
-import java.io.IOException;
+import com.online.college.common.web.shiro.freemarker.ShiroTags;
+
+import freemarker.template.TemplateException;
 
 /**
  * shiro freemarker 整合

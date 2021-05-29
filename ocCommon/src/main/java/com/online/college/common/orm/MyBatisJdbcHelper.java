@@ -1,10 +1,11 @@
 package com.online.college.common.orm;
 
-import com.online.college.common.util.BeanUtil;
-import org.apache.commons.lang.StringUtils;
-
 import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.commons.lang.StringUtils;
+
+import com.online.college.common.util.BeanUtil;
 
 /**
  * 为mybatis准备动态sql

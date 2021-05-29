@@ -1,11 +1,12 @@
 package com.online.college.common.web;
 
-import com.online.college.common.web.auth.SessionUser;
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.subject.Subject;
 
-import javax.servlet.http.HttpServletRequest;
+import com.online.college.common.web.auth.SessionUser;
 
 /**
  * session工具类

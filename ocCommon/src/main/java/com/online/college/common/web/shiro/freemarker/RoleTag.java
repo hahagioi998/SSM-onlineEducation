@@ -3,7 +3,6 @@ package com.online.college.common.web.shiro.freemarker;
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
-
 import java.io.IOException;
 import java.util.Map;
 

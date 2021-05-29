@@ -1,8 +1,8 @@
 package com.online.college.common.storage;
 
-import com.online.college.common.util.CommonUtil;
-
 import java.text.MessageFormat;
+
+import com.online.college.common.util.CommonUtil;
 
 /**
  * 资源在七牛云存储的key生成器

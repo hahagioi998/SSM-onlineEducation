@@ -1,5 +1,15 @@
 package com.online.college.common.storage;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Properties;
+import java.util.Random;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.util.StringUtils;
+
 import com.online.college.common.util.PropertiesUtil;
 import com.qiniu.common.QiniuException;
 import com.qiniu.common.Zone;
@@ -8,11 +18,6 @@ import com.qiniu.storage.Configuration;
 import com.qiniu.storage.UploadManager;
 import com.qiniu.storage.model.DefaultPutRet;
 import com.qiniu.util.Auth;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.util.StringUtils;
-
-import java.util.*;
 
 /**
  * 七牛SDK的包装类，以便于业务使用

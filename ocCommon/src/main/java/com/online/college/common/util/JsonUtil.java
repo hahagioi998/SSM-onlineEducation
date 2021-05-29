@@ -1,9 +1,9 @@
 package com.online.college.common.util;
 
 
-import org.codehaus.jackson.map.ObjectMapper;
-
 import java.io.IOException;
+
+import org.codehaus.jackson.map.ObjectMapper;
 
 public class JsonUtil {
 	

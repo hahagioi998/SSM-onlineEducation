@@ -2,9 +2,6 @@ package com.online.college.common.orm;
 
 import java.util.Date;
 
-/**
- *  基类实体
- */
 public class BaseEntity extends LongModel{
 	private static final long serialVersionUID = 968132587307913395L;
 	

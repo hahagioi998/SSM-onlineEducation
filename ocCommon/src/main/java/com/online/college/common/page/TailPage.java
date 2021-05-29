@@ -10,7 +10,7 @@ import java.util.List;
 public class TailPage<E> extends AbstractPage<E> {
 	
     protected int showPage = 10;//显示10个页码
-	protected List<Integer> showNums = new ArrayList<Integer>();//显示多少条数据
+	protected List<Integer> showNums = new ArrayList<Integer>();
 	protected boolean showDot = true;
 	public TailPage() {}
 	
@@ -19,7 +19,7 @@ public class TailPage<E> extends AbstractPage<E> {
      * @param page
      * @param items
      */
-    public TailPage(Page<E> page, Collection<E> items , int itemsTotalCount) {
+    public TailPage(Page<E> page, Collection<E> items ,int itemsTotalCount) {
         this(page.getPageNum(), page.getPageSize(), itemsTotalCount , items);
     }
 

@@ -1,17 +1,22 @@
 package com.online.college.common.util;
 
-import org.apache.commons.beanutils.PropertyUtils;
-import org.apache.log4j.Logger;
-import org.springframework.util.Assert;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.util.*;
+
+import org.apache.commons.beanutils.PropertyUtils;
+import org.apache.log4j.Logger;
+import org.springframework.util.Assert;
 
 /**
  * Bean 转换工具
@@ -351,7 +356,7 @@ public class BeanUtil {
 
     /**
      * 转换将第一个字母大写变成小写，并在前面加下划线
-     * @param str
+     * @param args
      */
     public static String fieldToColumn(String str) {
         char[] chars = str.toCharArray();
@@ -368,7 +373,7 @@ public class BeanUtil {
     
     /**
      * 首字母变大写
-     * @param str
+     * @param args
      */
     public static String upperCaseFirst(String str) {
     	return Character.toUpperCase(str.charAt(0))+str.substring(1, str.length());
@@ -376,7 +381,7 @@ public class BeanUtil {
     
     /**
      * 首字母变小写
-     * @param str
+     * @param args
      */
     public static String lowerCaseFirst(String str) {
     	return Character.toLowerCase(str.charAt(0))+str.substring(1, str.length());

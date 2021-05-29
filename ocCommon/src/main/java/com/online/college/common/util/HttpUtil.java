@@ -1,10 +1,11 @@
 package com.online.college.common.util;
 
-import org.apache.commons.lang.StringUtils;
+import java.io.IOException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+
+import org.apache.commons.lang.StringUtils;
 
 /**
  * http工具类

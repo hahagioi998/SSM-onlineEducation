@@ -2,8 +2,8 @@ package com.online.college.common.orm;
 
 import java.io.Serializable;
 
-/** 标识符类
- *  @param <KEY>
+/**
+ * @param <KEY>
  */
 public interface Identifier<KEY extends Serializable> {
 
